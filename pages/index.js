@@ -32,7 +32,7 @@ export default function Home() {
         <section className='min-h-screen'>
           <nav className='py-10 mb-12 flex justify-between'>
             <h1 className='text-xl font-burtons dark:text-gray-400'>DevelopedByFacu</h1>
-            <ul className='flex items-center'>
+            <ul className='flex items-center min-w-fit'>
               <li>
                 <BsFillMoonStarsFill
                   onClick={() => setDarkMode(!darkMode)}
@@ -40,7 +40,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  className='font-burtons bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-8'
+                  className='font-burtons bg-gradient-to-r from-cyan-500 to-teal-500 text-white px-4 py-2 rounded-md ml-4 '
                   href="https://github.com/FacundoSuarez-46?tab=repositories"
                 >
                   My repos
